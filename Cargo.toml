@@ -9,7 +9,7 @@ name = "alpino_tokenizer"
 crate-type = ["cdylib"]
 
 [dependencies]
-rust-tokenizer = { git = "https://github.com/danieldk/alpino-tokenizer.git", rev = "015e78f3f31", package = "alpino-tokenizer" }
+rust-tokenizer = { version = "0.1", package = "alpino-tokenizer" }
 
 [dependencies.pyo3]
 version = "0.8"
