@@ -12,5 +12,5 @@ crate-type = ["cdylib"]
 rust-tokenizer = { version = "0.1", package = "alpino-tokenizer" }
 
 [dependencies.pyo3]
-version = "0.13"
+version = "0.24"
 features = ["extension-module"]
